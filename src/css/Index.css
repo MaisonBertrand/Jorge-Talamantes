@@ -1,0 +1,30 @@
+.site-header {
+    z-index: 10;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 5.25rem;
+    margin-left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    outline: 1px solid;
+    outline-color: #aaaaaa;
+    position: fixed;
+    justify-content: space-evenly;
+    align-items: center;
+    justify-items: center;
+}
+.site-header a {
+    text-decoration: none;
+    color: #000000;
+}
+.site-header a:visited {
+    text-decoration: none;
+    color: #000000;
+}
+.image-banner {
+    display: grid;
+    margin-top: 4%;
+    justify-items: center;
+}
+
